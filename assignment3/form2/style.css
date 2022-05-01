@@ -1,0 +1,36 @@
+body{
+    margin: 20px 600px 100px 100px;
+} 
+div{
+    margin-top: 10px ;
+}
+.col1{
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    font-weight:normal
+}
+.col2{
+    float: left;
+    width: 75%;
+    margin-top: 10px;
+}
+.button{
+    color: aqua;
+}
+input{
+    margin: 2px;
+    
+}
+#field1{
+    border-color: aqua;
+}
+legend{
+    font-weight: 600;
+}
+label{
+    font-weight:400;
+}
+textarea{
+    border-radius: 5px;
+}

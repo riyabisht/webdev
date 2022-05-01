@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Table 2</title>
+            <style>
+                table,th,td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+            </style>
+        </head>
+        <body>
+            <table style="width: 100%" >
+                <th colspan="6">colspan (6)</th>
+                <tr>
+                    <th colspan="2">rowspan (2)</th>
+                    <th colspan="4">rowspan (4)</td>
+                </tr>
+                <tr style="width: 100%">
+                    <th rowspan="3"> rowpan (3)
+                        <td>row1</td>
+                        <td>row1</td>
+                        <td>row1</td>
+                        <th rowspan="3", colspan="2">rowspan (3)<br> colspan (2)</linebr></th>
+                    </th>
+                </tr>
+                <tr>
+                    <td>row2</td>
+                    <td>row2</td>
+                    <td>row2</td>
+                </tr>
+                <tr>
+                    <td>row3</td>
+                    <td>row3</td>
+                    <td>row3</td>
+                </tr>
+                <tr style="width: 80%" >
+                    <td>row4</td>
+                    <td>row4</td>
+                    <td>row4</td>
+                    <td>row4</td>
+                    <td>row4</td>
+                    <td>row4</td>
+                </tr>
+
+            </table>
+
+        </body>
+
+    </html>

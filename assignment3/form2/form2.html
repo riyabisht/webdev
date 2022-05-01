@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <Fieldset id="field1">
+    <div>
+        <Fieldset>
+        <legend>Personal Information</legend>
+            <form id="1">
+                <div class="row">
+                    <div class="col1">  
+                        <label for="i1" >First Name</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="i1"><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="i3">Last Name</label>
+                    </div class="col2">
+                    <div>
+                        <input type="text" id="i3"> <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="i2">Gender</label>
+                    </div>
+                    <div class="col2">
+                        <input type="radio" id="i2">Female
+                        <input type="radio" id="i2">Male <br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="i4">Nationality</label>
+                    </div>
+                    <div class="col2">
+                        <select id="i4">
+                            <option>select</option>
+                            <option value="indian">indian</option>
+                            <option value="canadian">canadian</option>
+                            <option value="german">German</option>
+                        </select> <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="i5">Address</label>
+                    </div>
+                    <div class="col2">
+                    <textarea name="address" id="i5" cols="30" rows="3"></textarea>
+                    </div>
+                </div>
+            </Fieldset>
+    </div>
+    <div >
+        <Fieldset>
+            <legend>Medical History</legend>
+            <form id="2">
+            <input type="checkbox" class="A"> Smallpox
+            <input type="checkbox" class="A"> Mumps
+            <input type="checkbox" class="A"> Dizziness
+            <input type="checkbox" class="A"> Sneezing
+            </form>
+        </Fieldset>
+    </div>
+    <div>
+        <Fieldset>
+            <legend>Current Medication</legend>
+            <form id="3">
+            <label for="i6">Are you currently taking any Medication ?</label>
+            <input type="radio" id="i6">Yes
+            <input type="radio" id="i6">No
+            <p id="i7">If you are currently taking medication, please indicate it in the space below:</p>
+            <textarea name="info" id="i7" cols="50" rows="7"></textarea><br>
+            </form>
+        </Fieldset>
+    </div>
+    <div class="button">
+        <button id="b1">Submit</button>
+        <button id="b1">Reset</button>
+    </div>
+</Fieldset>
+
+</body>
+</html>
